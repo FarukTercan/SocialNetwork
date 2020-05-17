@@ -15,7 +15,6 @@ const User = require('../../models/User');
 router.get('/me', auth, async (req, res) => {
   try {
     const profile = await Profile.findOne({
-      // just forgot use await and get Server Error. It takes 1 hour to find :)
       user: req.user.id
     }).populate('user', ['name', 'avatar']);
 
@@ -62,7 +61,7 @@ router.post(
       twitter,
       instagram,
       linkedin
-    } = req.body;
+    } = req.body; // it holds the parts sent up from client
 
     // Build profile object (to check if any of these is added before)
     const profileFields = {}; // ???
