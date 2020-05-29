@@ -28,7 +28,6 @@ const EditProfile = ({
   const [displaySocialInputs, toggleSocialInputs] = useState(false);
 
   useEffect(() => {
-    // if (!profile)
     getCurrentProfile();
 
     setFormData({
@@ -46,12 +45,7 @@ const EditProfile = ({
       youtube: loading || !profile.social ? '' : profile.social.youtube,
       instagram: loading || !profile.social ? '' : profile.social.instagram
     });
-  }, [
-    loading,
-    getCurrentProfile
-    // getCurrentProfile, profile , setFormData
-  ]);
-  //   why loading dep?
+  }, [loading, getCurrentProfile]);
 
   const {
     company,

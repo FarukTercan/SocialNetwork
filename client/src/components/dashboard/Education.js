@@ -39,7 +39,7 @@ const Education = ({ education, deleteEducation }) => {
             <th />
           </tr>
         </thead>
-        <tbody>{educations} </tbody>
+        <tbody>{educations}</tbody>
       </table>
     </Fragment>
   );
