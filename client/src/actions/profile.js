@@ -139,7 +139,6 @@ export const addExperience = (formData, history) => async (dispatch) => {
     dispatch(setAlert('Experince Added', 'success'));
 
     history.push('/dashboard');
-    // Since we cant use Redirect here, used push method for this purpose
   } catch (err) {
     const errors = err.response.data.errors;
 
@@ -174,7 +173,6 @@ export const addEducation = (formData, history) => async (dispatch) => {
     dispatch(setAlert('Education Added', 'success'));
 
     history.push('/dashboard');
-    // Since we cant use Redirect here, used push method for this purpose
   } catch (err) {
     const errors = err.response.data.errors;
 

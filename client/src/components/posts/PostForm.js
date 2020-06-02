@@ -15,7 +15,7 @@ const PostForm = ({ addPost }) => {
         className='form my-1'
         onSubmit={(e) => {
           e.preventDefault();
-          addPost({ text }); // check again
+          addPost({ text });
           setText('');
         }}
       >
