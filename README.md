@@ -1,6 +1,6 @@
 # Social Network
 
-> Social Network is a MERN stack project allows users to interact each other. 
+> Social Network is a MERN Stack project allows users to interact each other similar. 
 > 
 > You can reach the demo version here:
 >  https://afternoon-headland-03364.herokuapp.com/
