@@ -1,8 +1,9 @@
 # Social Network
 
-> Social network for developers
-
+> Social Network is a MERN stack project allows users to interact each other. 
 > 
+> You can reach the demo version here:
+>  https://afternoon-headland-03364.herokuapp.com/
 
 
 # Quick Start 🚀
@@ -36,9 +37,3 @@ npm install
 npm run dev
 ```
 
-### Build for production
-
-```bash
-cd client
-npm run build
-```
